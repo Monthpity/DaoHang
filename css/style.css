@@ -492,7 +492,7 @@ a.linkbutton:hover {
 }
 
 .footer {
-  padding: 60px 0 60px 0;
+  padding: 30px 300px 30px 300px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -523,6 +523,7 @@ a.linkbutton:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: #ffffff;
 }
 
 /* banner */
