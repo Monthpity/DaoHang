@@ -780,6 +780,23 @@ a.second-link:hover {
   }
 }
 
+*{
+  cursor: url("../mouse/alternate.cur"),auto!important;
+}
+a {
+  cursor: url("../mouse/link.cur"),auto!important;
+}
+
+  @font-face{
+   font-family: 'simsun';
+   src: url('../fonts/simsun.ttc');
+}
+
+body{
+   font-family: 'simsun';
+} 
+
+
 /* @media screen and (max-width: 375px) {
   .first-stack {
     margin-bottom: 20px;
