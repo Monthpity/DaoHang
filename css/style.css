@@ -787,14 +787,14 @@ a {
   cursor: url("../mouse/link.cur"),auto!important;
 }
 
-/*   @font-face{
-   font-family: 'simsun';
-   src: url('../fonts/simsun.ttc');
+  @font-face{
+   font-family: 'nekotora';
+   src: url('../fonts/nekotora.ttf');
 }
 
 body{
-   font-family: 'simsun';
-}  */
+   font-family: 'nekotora';
+} 
 
 
 /* @media screen and (max-width: 375px) {
