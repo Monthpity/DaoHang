@@ -309,6 +309,12 @@ img {
 	color: var(--heo-fontcolor)
 }
 
+.nav-item:hover{
+
+    background-color:#4375ff;
+    transition: 0.3s;
+
+}
 .nav-content {
 	max-width: 1200px;
 	width: 90%;
@@ -837,7 +843,7 @@ a.second-link:hover {
   .menu-list a.nav-item {
     padding: 8px 8px;
     font-size: 16px;
-    border-bottom: 1px solid #ffffff53;
+    border-bottom: 1px solid #ffffff7d;
     width: 90%;
     margin-left: 0;
   }
@@ -952,7 +958,4 @@ body{
   .footer {
     margin-top: 20px;
   }
-  .nav-center {
-		display: none
-	}
 }
