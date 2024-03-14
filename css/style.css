@@ -188,14 +188,11 @@ span.avatar-name {
 .avatar-title {
 	display: flex;
 	margin: auto;
-	font-size: 14px;
+	font-size: 16px;
 	opacity: .6;
 	text-align: center;
 	max-width: 200px
 }
-
-
-
 
 
 body {
@@ -310,6 +307,13 @@ img {
 	color: var(--heo-fontcolor)
 }
 
+.nav .top span.site-name {
+	color: var(--heo-fontcolor)
+}
+
+.nav.top a.nav-item:hover {
+	background: var(--heo-secondbg)
+}
 .nav-item:hover{
 
     background-color:#4375ff;
@@ -375,7 +379,7 @@ img.site-logo-img {
 
 
 .right-stack {
-  max-width: 405px;
+  max-width: 800px;
   width: 35%;
   position: relative;
   animation: floating 4s ease-in-out infinite;
@@ -433,8 +437,8 @@ a.nav-item:hover {
 .title-group {
   display: flex;
   flex-direction: column;
-  font-size: 45px;
-  font-weight: 400;
+  font-size: 60px;
+  font-weight: 400px;
   color: #000000;
   line-height: 61px;
   font-weight: bold;
@@ -732,10 +736,6 @@ a.second-link:hover {
   }
 }
 
-
-
-
-
 @media screen and (max-width: 600px) {
   .photos img {
     height: 150px;
@@ -749,6 +749,14 @@ a.second-link:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+	.show-menu .nav .top span.site-name {
+		color: var(--heo-white)
+	}
+
+	body:not(.show-menu) .nav .top .nav-menu {
+		color: var(--heo-fontcolor)
+	}
 
 	.avatar-discription-text {
 		padding: 20px;
