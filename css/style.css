@@ -299,7 +299,7 @@ img {
 	backdrop-filter: blur(10px)
 }
 
-.nav.top {
+/* .nav.top {
 	background: var(--heo-background)
 }
 
@@ -313,12 +313,11 @@ img {
 
 .nav.top a.nav-item:hover {
 	background: var(--heo-secondbg)
-}
+} */
 .nav-item:hover{
 
     background-color:#4375ff;
     transition: 0.3s;
-
 }
 .nav-content {
 	max-width: 1200px;
@@ -379,8 +378,9 @@ img.site-logo-img {
 
 
 .right-stack {
-  max-width: 800px;
-  width: 37%;
+  width: 800px;
+  width: 40%;
+  left: 135px;
   position: relative;
   animation: floating 4s ease-in-out infinite;
   transform: translate(0, -7px);
@@ -430,7 +430,7 @@ a.nav-item:hover {
   display: flex;
   justify-content: space-between;
   margin-top: 180px;
-  margin-bottom: 120px;
+  margin-bottom: 160px;
   align-items: center;
 }
 
@@ -750,13 +750,13 @@ a.second-link:hover {
 
 @media screen and (max-width: 768px) {
 
-	.show-menu .nav .top span.site-name {
+	/* .show-menu .nav .top span.site-name {
 		color: var(--heo-white)
 	}
 
 	body:not(.show-menu) .nav .top .nav-menu {
 		color: var(--heo-fontcolor)
-	}
+	} */
 
 	.avatar-discription-text {
 		padding: 20px;
