@@ -380,7 +380,7 @@ img.site-logo-img {
 
 .right-stack {
   max-width: 800px;
-  width: 35%;
+  width: 37%;
   position: relative;
   animation: floating 4s ease-in-out infinite;
   transform: translate(0, -7px);
@@ -437,8 +437,8 @@ a.nav-item:hover {
 .title-group {
   display: flex;
   flex-direction: column;
-  font-size: 60px;
-  font-weight: 400px;
+  font-size: 50px;
+  font-weight: 800px;
   color: #000000;
   line-height: 61px;
   font-weight: bold;
@@ -446,12 +446,12 @@ a.nav-item:hover {
 
 span.discription-text {
   display: block;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 400px;
   color: #000000;
   line-height: 34px;
-  max-width: 422px;
-  margin-top: 28px;
+  max-width: 330px;
+  margin-top: 35px;
 }
 
 a.about-button {
