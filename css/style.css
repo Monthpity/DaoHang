@@ -894,8 +894,9 @@ a.second-link:hover {
     margin-left: 0px;
   }
 
-  .right-stack {
+   .right-stack {
     width: 100%;
+    left: auto;
   }
 
   .nav-center {
