@@ -298,7 +298,7 @@ img {
 	background: var(--heo-navbg);
 	align-items: center;
 	z-index: 2;
-	transition: ease-in-out .3s;
+	transition: ease-in-out 0.3s;
 	backdrop-filter: blur(10px)
 }
 
@@ -311,8 +311,6 @@ img {
 }
 
 .nav-item:hover{
-
-    background-color:#4375ff;
     transition: 0.3s;
 
 }
@@ -324,7 +322,7 @@ img {
 	align-items: center;
 	height: 50px;
 	z-index: 2;
-	transition: ease-in-out .3s
+	transition: ease-in-out 0.3s;
 }
 
 .nav-banner {
@@ -408,11 +406,15 @@ a.nav-item {
   opacity: 0.8;
   transition: ease-in-out 0.3s;
   font-size: 14px;
-  margin-left: 12px;
+  margin: 0 2px;
+  padding: 4px 8px;
+  border-radius: 16px;
 }
 
 a.nav-item:hover {
   opacity: 1;
+  background: var(--heo-card-bg);
+  color: var(--heo-fontcolor);
 }
 
 .nav-right {
@@ -973,4 +975,8 @@ body{
   .footer {
     margin-top: 20px;
   }
+
+  .nav-center {
+		display: none
+	}
 }
