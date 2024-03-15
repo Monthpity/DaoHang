@@ -448,6 +448,7 @@ a.nav-item:hover {
 .gradientText {
   background-size: 200%;
   background-position: 0%;
+  /* 英文字体 */
   font-family: "title";
   animation: backgroundSizeAnimation 10s ease-in-out infinite;
   background-image: linear-gradient(to right,#f2420c, #e3f055, #9204f0, #1f53ee,#08e2ff,#f055af);
@@ -469,7 +470,8 @@ span.discription-text {
 .gradientText-2 {
   background-size: 200%;
   background-position: 0%;
-  font-family: "title";
+  /* 英文字体 */
+  font-family: "title";       
   animation: backgroundSizeAnimation 10s ease-in-out infinite;
   background-image: linear-gradient(to right,#f055af, #08e2ff, #1f53ee,#9204f0,#e3f055,#f2420c);
   -webkit-background-clip: text;
@@ -997,7 +999,7 @@ body{
 @font-face {
   font-family: "title";
   /*英文字体*/
-  src: url(/static/font/Pacifico-Regular.ttf);
+  src: url('../fonts/Pacifico-Regular.ttf');
   font-display: swap;
 }
 
