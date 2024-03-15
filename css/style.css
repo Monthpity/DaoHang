@@ -442,11 +442,21 @@ a.nav-item:hover {
   font-weight: 800;
   line-height: 61px;
   font-weight: bold;
+  background: fixed;
   background: linear-gradient(to right,#f2420c, #e3f055, #08cbf7, #1f53ee, #9204f0, #f055af);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: flow 5s infinite;
 }
 
+@keyframes flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
 
 span.discription-text {
   display: block;
@@ -456,11 +466,11 @@ span.discription-text {
   line-height: 34px;
   max-width: 330px;
   margin-top: 35px;
-  /* animation: color-flow 12s infinite;
-  background-clip: text; */
-  
- 
+  background-image:  linear-gradient(to right, #f055af, #9204f0, #1f53ee, #08cbf7, #e3f055,#f2420c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 
 a.about-button {
   display: flex;
