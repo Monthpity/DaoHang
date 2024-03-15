@@ -450,11 +450,31 @@ a.nav-item:hover {
   background-position: 0%;
   font-family: "title";
   animation: backgroundSizeAnimation 10s ease-in-out infinite;
-  background-image: linear-gradient(to right,#f2420c, #e3f055, #9204f0, #1f53ee,#f055af);
+  background-image: linear-gradient(to right,#f2420c, #e3f055, #9204f0, #1f53ee,#08e2ff,#f055af);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+span.discription-text {
+  display: block;
+  font-size: 30px;
+  font-weight: 400px;
+  color:#000000;
+  line-height: 34px;
+  max-width: 400px;
+  margin-top: 35px;
+}
+
+
+.gradientText-2 {
+  background-size: 200%;
+  background-position: 0%;
+  font-family: "title";
+  animation: backgroundSizeAnimation 10s ease-in-out infinite;
+  background-image: linear-gradient(to right,#f055af, #08e2ff, #1f53ee,#9204f0,#e3f055,#f2420c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @keyframes backgroundSizeAnimation {
   0% {
@@ -479,28 +499,27 @@ a.nav-item:hover {
 
 }
 
-span.discription-text {
-  display: block;
-  font-size: 30px;
-  font-weight: 400px;
-  color:#000000;
-  line-height: 34px;
-  max-width: 330px;
-  margin-top: 35px;
-  /* background-image:  linear-gradient(to right, #f055af, #9204f0, #1f53ee, #08cbf7, #e3f055,#f2420c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+.first-stack-links {
+  display: flex;
 }
 
+.social-button {
+  margin-left: 8px;
+  padding: 0px 16px;
+}
+
+.social-button i {
+  font-size: 22px;
+}
 
 a.about-button {
   display: flex;
-  padding: 12px 36px;
+  padding: 14px 36px;
   background: var(--heo-card-btn-bg);
   color: var(--heo-white);
   border-radius: 29px;
   box-shadow: 0px 12px 12px -9px rgba(0, 0, 0, 0.29);
-  margin-top: 64px;
+  margin-top: 60px;
   width: fit-content;
   transition: ease-in-out 0.3s;
   white-space: nowrap;
