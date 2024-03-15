@@ -6,7 +6,7 @@
 
 预览图：
 
-<img src="./yulan/daohang.png" wiht="500" height="500" alt="图片预览" align="center">
+<img src="./yulan/daohang.png" wiht="100px" height="100px" alt="图片预览" align="center">
 
 ![daohang-2](/yulan/daohang-2.png)
 
