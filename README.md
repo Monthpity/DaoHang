@@ -6,9 +6,8 @@
 
 预览图：
 
-<div align="ceter">
-<img src="./yulan/daohang.png" wiht="300px" height="300px" alt="图片预览" align="center">
-</div>
+![daohang-2](/yulan/daohang.png =300*300)
+
 ![daohang-2](/yulan/daohang-2.png)
 
 ![daohang-3](/yulan/daohang-3.png)
