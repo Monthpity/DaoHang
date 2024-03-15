@@ -439,15 +439,14 @@ a.nav-item:hover {
   display: flex;
   flex-direction: column;
   font-size: 50px;
-  font-weight: 800px;
+  font-weight: 800;
   line-height: 61px;
   font-weight: bold;
-  color: transparent;
-  background-clip: text;
-  animation: color-flow 12s infinite;
- 
-
+  background: linear-gradient(to right,#f2420c, #e3f055, #08cbf7, #1f53ee, #9204f0, #f055af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 
 span.discription-text {
   display: block;
@@ -731,42 +730,6 @@ a.second-link:hover {
   white-space: nowrap;
 }
 
-@keyframes color-flow {
-  0% {
-    background-color: #f91212;
-  }
-  10% {
-    background-color: #f0870f;
-  }
-  20% {
-    background-color: #9eee13;
-  }
-  30% {
-    background-color: #17ec61;
-  }
-  40% {
-    background-color: #1beac1;
-  }
-  50% {
-    background-color: #2357f4;
-  }
-  60% {
-    background-color: #6f3df7;
-  }
-  70% {
-    background-color: #6f05d2;
-  }
-  80% {
-    background-color: #fd01ec;
-  }
-  90% {
-    background-color: #f926a1;
-  }
-  100% {
-    background-color: #de0000;
-  }
-}
-
 @keyframes color-blink {
   0% {
     color: #9f2deb;
@@ -818,6 +781,7 @@ a.second-link:hover {
 		color: var(--heo-fontcolor)
 	} */
 
+
 	.avatar-discription-text {
 		padding: 20px;
 		width: 100%
@@ -828,11 +792,6 @@ a.second-link:hover {
 		margin-top: 20px
 	}
 
- .title-group {
-  background-clip: text;
-  animation: color-flow 12s infinite;
-  }
-	
   .group-info-group {
     margin-left: 15px;
   }
