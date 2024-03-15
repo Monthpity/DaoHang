@@ -443,19 +443,41 @@ a.nav-item:hover {
   line-height: 61px;
   font-weight: bold;
   background: fixed;
-  background: linear-gradient(to right,#f2420c, #e3f055, #08cbf7, #1f53ee, #9204f0, #f055af);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: flow 5s infinite;
 }
 
-@keyframes flow {
+
+.gradientText {
+  background-size: 200%;
+  background-position: 0%;
+  font-family: "title";
+  animation: backgroundSizeAnimation 10s ease-in-out infinite;
+  background-image: linear-gradient(to right,#f2420c, #e3f055, #08cbf7, #1f53ee, #9204f0, #f055af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@keyframes backgroundSizeAnimation {
   0% {
-    background-position: 0% 50%;
+      background-position: 100%;
   }
+
+  25% {
+      background-position: 50%;
+  }
+
+  50% {
+      background-position: 0%;
+  }
+
+  75% {
+      background-position: 50%;
+  }
+
   100% {
-    background-position: 100% 50%;
+      background-position: 100%;
   }
+
 }
 
 span.discription-text {
@@ -466,9 +488,9 @@ span.discription-text {
   line-height: 34px;
   max-width: 330px;
   margin-top: 35px;
-  background-image:  linear-gradient(to right, #f055af, #9204f0, #1f53ee, #08cbf7, #e3f055,#f2420c);
+  /* background-image:  linear-gradient(to right, #f055af, #9204f0, #1f53ee, #08cbf7, #e3f055,#f2420c);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 
@@ -953,6 +975,13 @@ a {
 body{
    font-family: 'nekotora';
 } 
+
+@font-face {
+  font-family: "title";
+  /*英文字体*/
+  src: url(/static/font/Pacifico-Regular.ttf);
+  font-display: swap;
+}
 
 
 @media screen and (max-width: 375px) {
