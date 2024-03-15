@@ -828,6 +828,11 @@ a.second-link:hover {
 		margin-top: 20px
 	}
 
+ .title-group {
+  background-clip: text;
+  animation: color-flow 12s infinite;
+  }
+	
   .group-info-group {
     margin-left: 15px;
   }
