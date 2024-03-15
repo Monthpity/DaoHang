@@ -445,13 +445,12 @@ a.nav-item:hover {
   background: fixed;
 }
 
-
 .gradientText {
   background-size: 200%;
   background-position: 0%;
   font-family: "title";
   animation: backgroundSizeAnimation 10s ease-in-out infinite;
-  background-image: linear-gradient(to right,#f2420c, #e3f055, #08cbf7, #1f53ee, #9204f0, #f055af);
+  background-image: linear-gradient(to right,#f2420c, #e3f055, #9204f0, #1f53ee,#f055af);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -459,7 +458,7 @@ a.nav-item:hover {
 
 @keyframes backgroundSizeAnimation {
   0% {
-      background-position: 100%;
+      background-position: 0% ;
   }
 
   25% {
@@ -467,7 +466,7 @@ a.nav-item:hover {
   }
 
   50% {
-      background-position: 0%;
+      background-position: 100%;
   }
 
   75% {
@@ -475,7 +474,7 @@ a.nav-item:hover {
   }
 
   100% {
-      background-position: 100%;
+      background-position: 0%;
   }
 
 }
