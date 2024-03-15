@@ -6,6 +6,7 @@
 
 预览图：
 
+<div align="ceter">
 <img src="./yulan/daohang.png" wiht="300px" height="300px" alt="图片预览" align="center">
 
 ![daohang-2](/yulan/daohang-2.png)
