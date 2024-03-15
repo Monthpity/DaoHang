@@ -6,7 +6,7 @@
 
 预览图：
 
-![daohang-2](/yulan/daohang.png =300*300)
+![daohang](./yulan/daohang.png)
 
 ![daohang-2](/yulan/daohang-2.png)
 
