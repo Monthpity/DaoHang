@@ -154,27 +154,27 @@
 }
 
 .avatar-discription-text p {
-	margin: 0
+	margin: 0;
 }
 
 .avatar-discription-text b {
-	color: #c87500
+	color: #c87500;
 }
 
 .avatar-info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 12px
+	padding: 4px 0px 4px 0px;
 }
 
 span.avatar-name {
 	display: flex;
 	margin: auto;
-	font-size: 24px;
+	font-size: 22px;
 	opacity: 1;
 	margin-top: 8px;
-	font-weight: 700
+	font-weight: 700px;
 }
 
 .avatar-image {
@@ -189,12 +189,15 @@ span.avatar-name {
 .avatar-title {
 	display: flex;
 	margin: auto;
-	font-size: 16px;
-	opacity: .6;
+	font-size: 18px;
+	opacity: 0.4;
 	text-align: center;
-	max-width: 200px
+	max-width: 200px;
 }
 
+.Englishfont{
+font-family: "title";
+}
 
 body {
   background: var(--heo-background);
