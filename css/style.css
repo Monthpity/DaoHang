@@ -995,9 +995,9 @@ a {
    src: url('../fonts/nekotora.ttf');
 }
 
-body{
+/* body{
    font-family: 'nekotora';
-} 
+}  */
 
 @font-face {
   font-family: "title";
