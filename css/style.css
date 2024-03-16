@@ -200,7 +200,7 @@ span.avatar-name {
   font-family: "title";
   /*英文字体*/
   src: url('../fonts/Pacifico-Regular.ttf');
-  font-display: fallback;
+  font-display: swap;
 }
 
 .Englishfont{
