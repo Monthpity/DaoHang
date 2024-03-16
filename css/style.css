@@ -195,6 +195,14 @@ span.avatar-name {
 	max-width: 200px;
 }
 
+
+@font-face {
+  font-family: "title";
+  /*英文字体*/
+  src: url('../fonts/Pacifico-Regular.ttf');
+  font-display: fallback;
+}
+
 .Englishfont{
 font-family: "title";
 }
@@ -998,13 +1006,6 @@ a {
 /* body{
    font-family: 'nekotora';
 }  */
-
-@font-face {
-  font-family: "title";
-  /*英文字体*/
-  src: url('../fonts/Pacifico-Regular.ttf');
-  font-display: swap;
-}
 
 
 @media screen and (max-width: 375px) {
