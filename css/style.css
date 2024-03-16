@@ -200,7 +200,7 @@ span.avatar-name {
   font-family: "title";
   /*英文字体*/
   src: url('../fonts/Pacifico-Regular.ttf');
-  font-display: fallback;
+  font-display: optional;
 }
 
 .Englishfont{
@@ -998,10 +998,10 @@ a {
   cursor: url("../mouse/link.cur"),auto!important;
 }
 
-@font-face{
+/* @font-face{
    font-family: 'nekotora';
    src: url('../fonts/nekotora.ttf');
-}
+} */
 
 /* body{
    font-family: 'nekotora';
