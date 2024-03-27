@@ -311,7 +311,7 @@ img {
 	backdrop-filter: blur(10px)
 }
 
-.nav.top {
+/* .nav.top {
 	background: var(--heo-background)
 }
 
@@ -325,7 +325,7 @@ img {
 
 .nav.top a.nav-item:hover {
 	background: var(--heo-secondbg)
-}
+} */
 .nav-item:hover{
 
     background-color:#4375ff;
@@ -791,10 +791,7 @@ a.second-link:hover {
 
 @font-face {
   font-family: "iconfont"; /* Project id 3280804 */
-  src: url('//at.alicdn.com/t/c/font_3280804_sutv6qztv2c.woff2?t=1678284823675') format('woff2'),
-       url('//at.alicdn.com/t/c/font_3280804_sutv6qztv2c.woff?t=1678284823675') format('woff'),
-       url('//at.alicdn.com/t/c/font_3280804_sutv6qztv2c.ttf?t=1678284823675') format('truetype');
-}
+  src:url('//at.alicdn.com/t/c/font_3280804_sutv6qztv2c.ttf?t=1678284823675') format('truetype');}
 
 .iconfont {
   font-family: "iconfont" !important;
