@@ -797,6 +797,10 @@ a.second-link:hover {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-xiangyou1:before {
+  content: "\e775";
+}
+
 .icon-caidan:before {
   content: "\e790";
 }
