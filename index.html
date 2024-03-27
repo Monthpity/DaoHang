@@ -617,7 +617,26 @@
         <script src="js/simpleParallax.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/dianjilizi.js"></script>
-        <script src="js/texiao.js"></script>
+        <script src="js/piaodai.js"></script>
+        <!-- <script src="js/snow.js"></script> -->
+        <!-- <script src="js/texiao.js"></script> -->
         <!-- <script src="js/main.js.obfuscated.js"></script> -->  
-        
+        <!--落叶效果-->
+			<script src="js/su.js"></script>
+            <script type="text/javascript">
+                jQuery(document).ready(function($) {
+                    $('body').wpSuperSnow({
+                        flakes: ['./img/image/001.png', './img/image/002.png', './img/image/003.png',
+                            './img/image/004.png', './img/image/005.png', './img/image/006.png',
+                            './img/image/007.png', './img/image/008.png'
+                        ],
+                        totalFlakes: '100',
+                        zIndex: '999999999',
+                        maxSize: '30',
+                        maxDuration: '50',
+                        useFlakeTrans: false
+                    });
+                });
+            </script>
+    
 </html>
