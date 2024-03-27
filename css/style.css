@@ -311,7 +311,7 @@ img {
 	backdrop-filter: blur(10px)
 }
 
-/* .nav.top {
+.nav.top {
 	background: var(--heo-background)
 }
 
@@ -325,7 +325,7 @@ img {
 
 .nav.top a.nav-item:hover {
 	background: var(--heo-secondbg)
-} */
+}
 .nav-item:hover{
 
     background-color:#4375ff;
@@ -789,20 +789,19 @@ a.second-link:hover {
   white-space: nowrap;
 }
 
-@keyframes color-blink {
-  0% {
-    color: #9f2deb;
-    opacity: 1;
-  }
-  50% {
-    color: #f208f6;
-    opacity: 0.5;
-  }
-  100% {
-    color: #9f2deb;
-    opacity: 1;
-  }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-caidan:before {
+  content: "\e790";
+}
+
+
 
 @media screen and (max-width: 1200px) {
   .group-item {
