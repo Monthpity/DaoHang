@@ -792,25 +792,25 @@ a.second-link:hover {
   white-space: nowrap;
 }
 
-@font-face {
-  font-family: "iconfont"; /* Project id 3280804 */
-  src:url('//at.alicdn.com/t/c/font_3280804_sutv6qztv2c.ttf?t=1678284823675') format('truetype');}
+/* @font-face {
+  font-family: "iconfont"; 
+  src:url('//at.alicdn.com/t/c/font_3280804_sutv6qztv2c.ttf?t=1678284823675') format('truetype');} */
 
-.iconfont {
+/* .iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
-.icon-xiangyou1:before {
+/* .icon-xiangyou1:before {
   content: "\e775";
 }
 
 .icon-caidan:before {
   content: "\e790";
-}
+} */
 
 
 
@@ -857,10 +857,7 @@ a.second-link:hover {
 		color: var(--heo-fontcolor)
 	}
 
-  
-	.show-menu span.site-name {
-		color: var(--heo-white)
-	}
+
 
 	.avatar-discription-text {
 		padding: 20px;
@@ -927,13 +924,6 @@ a.second-link:hover {
     margin-bottom: 16px;
   }
 
-  /* .show-menu .nav {
-    background: var(--heo-fontcolor);
-  }
-
-  .show-menu .nav-content {
-    background: var(--heo-fontcolor);
-  } */
 
   .nav-right .nav-item {
     display: none;
