@@ -319,7 +319,14 @@ img {
 	color: var(--heo-fontcolor)
 }
 
-.nav .top span.site-name {
+span.site-name {
+	color: var(--heo-white);
+  /* color: #08e2ff; */
+	font-size: 14px;
+	margin-left: 8px;
+}
+
+.nav.top span.site-name {
 	color: var(--heo-fontcolor)
 }
 
@@ -341,6 +348,7 @@ img {
 	z-index: 2;
 	transition: ease-in-out .3s
 }
+
 
 .nav-banner {
   width: 100%;
@@ -412,12 +420,6 @@ img.site-logo-img {
   top: 31%;
 }
 
-span.site-name {
-  color: var(--heo-white);
-  font-size: 14px;
-  margin-left: 8px;
-}
-
 
 a.nav-item {
   color: var(--heo-white);
@@ -437,6 +439,7 @@ a.nav-item:hover {
   display: flex;
   align-items: center;
 }
+
 
 .first-stack {
   display: flex;
@@ -838,15 +841,23 @@ a.second-link:hover {
 
 @media screen and (max-width: 768px) {
 
-
-	/* .show-menu .nav .top span.site-name {
-		color: var(--heo-white)
+	.nav-content {
+		width: 80%
 	}
 
-	body:not(.show-menu) .nav .top .nav-menu {
-		color: var(--heo-fontcolor)
-	} */
+	.show-menu .nav {
+		background: var(--heo-fontcolor)
+	}
 
+  
+	body:not(.show-menu) .nav.top .nav-menu {
+		color: var(--heo-fontcolor)
+	}
+
+  
+	.show-menu span.site-name {
+		color: var(--heo-white)
+	}
 
 	.avatar-discription-text {
 		padding: 20px;
@@ -913,13 +924,13 @@ a.second-link:hover {
     margin-bottom: 16px;
   }
 
-  .show-menu .nav {
+  /* .show-menu .nav {
     background: var(--heo-fontcolor);
   }
 
   .show-menu .nav-content {
     background: var(--heo-fontcolor);
-  }
+  } */
 
   .nav-right .nav-item {
     display: none;
@@ -948,6 +959,7 @@ a.second-link:hover {
     overflow: hidden;
     transition: ease-in-out 0.3s;
     opacity: 0;
+    
   }
 
   .show-menu .menu-list {
@@ -955,17 +967,19 @@ a.second-link:hover {
     opacity: 1;
   }
 
-  .menu-list a.nav-item {
-    padding: 8px 8px;
-    font-size: 16px;
-    border-bottom: 1px solid #ffffff7d;
-    width: 90%;
-    margin-left: 0;
-  }
-
   .show-menu .menu-list a.nav-item {
-    padding: 12px 8px;
-  }
+		padding: 12px 8px
+	}
+
+	.menu-list a.nav-item {
+		padding: 8px 8px;
+		font-size: 16px;
+		border-bottom: 1px solid #ffffff1e;
+		width: 90%;
+		margin-left: 0;
+		border-radius: 0;
+		width: 80%
+	}
 
   .banner-pic {
     margin-top: 20px;
@@ -990,7 +1004,7 @@ a.second-link:hover {
   }
 
   .nav-center {
-		display: none
+		display: none;
 	}
 }
 
@@ -1075,4 +1089,8 @@ a {
   .footer {
     margin-top: 20px;
   }
+}
+
+.nav-center {
+  display: none
 }
