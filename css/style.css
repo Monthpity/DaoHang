@@ -792,9 +792,7 @@ a.second-link:hover {
   white-space: nowrap;
 }
 
-@font-face {
-  font-family: "iconfont"; /* Project id 3280804 */
-  src:url('//at.alicdn.com/t/c/font_3280804_sutv6qztv2c.ttf?t=1678284823675') format('truetype');}
+
 
 .iconfont {
   font-family: "iconfont" !important;
@@ -852,7 +850,12 @@ a.second-link:hover {
 		background: var(--heo-fontcolor)
 	}
 
+  .show-menu .nav.top span.site-name {
+		color: var(--heo-white)
+	}
   
+
+
 	body:not(.show-menu) .nav.top .nav-menu {
 		color: var(--heo-fontcolor)
 	}
@@ -927,7 +930,6 @@ a.second-link:hover {
   }
 
 
-
   .nav-right .nav-item {
     display: none;
   }
@@ -937,6 +939,7 @@ a.second-link:hover {
     color: var(--heo-white);
     padding: 8px 0 8px 8px;
   }
+
 
   .product-banner span.title {
     font-size: 40px;
@@ -956,7 +959,7 @@ a.second-link:hover {
 		transition: ease-in-out .3s;
 		opacity: 0;
 		backdrop-filter: blur(12px);
-		padding-top: 40px
+		padding-top: 15px;
 	}
 
   .show-menu .menu-list {
@@ -1091,3 +1094,5 @@ a {
 .nav-center {
   display: none
 }
+
+
