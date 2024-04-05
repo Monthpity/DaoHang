@@ -321,6 +321,7 @@ img {
 
 span.site-name {
 	color: var(--heo-white);
+  /* color: #08e2ff; */
 	font-size: 14px;
 	margin-left: 8px;
 }
@@ -332,7 +333,6 @@ span.site-name {
 .nav.top a.nav-item:hover {
 	background: var(--heo-secondbg)
 }
-
 .nav-item:hover{
 
     background-color:#4375ff;
@@ -792,7 +792,9 @@ a.second-link:hover {
   white-space: nowrap;
 }
 
-
+@font-face {
+  font-family: "iconfont"; /* Project id 3280804 */
+  src:url('//at.alicdn.com/t/c/font_3280804_sutv6qztv2c.ttf?t=1678284823675') format('truetype');}
 
 .iconfont {
   font-family: "iconfont" !important;
@@ -823,8 +825,6 @@ a.second-link:hover {
     display: flex;
     justify-content: space-between;
   }
-
-
 }
 
 @media screen and (max-width: 600px) {
@@ -837,7 +837,6 @@ a.second-link:hover {
   .photos img {
     height: 120px;
   }
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -854,13 +853,12 @@ a.second-link:hover {
 		color: var(--heo-white)
 	}
   
-
-
 	body:not(.show-menu) .nav.top .nav-menu {
 		color: var(--heo-fontcolor)
 	}
 
-  .show-menu span.site-name {
+  
+	.show-menu span.site-name {
 		color: var(--heo-white)
 	}
 
@@ -929,6 +927,13 @@ a.second-link:hover {
     margin-bottom: 16px;
   }
 
+  /* .show-menu .nav {
+    background: var(--heo-fontcolor);
+  }
+
+  .show-menu .nav-content {
+    background: var(--heo-fontcolor);
+  } */
 
   .nav-right .nav-item {
     display: none;
@@ -940,27 +945,25 @@ a.second-link:hover {
     padding: 8px 0 8px 8px;
   }
 
-
   .product-banner span.title {
     font-size: 40px;
   }
 
-	.menu-list {
-		display: flex;
-		position: fixed;
-		flex-direction: column;
-		top: 50px;
-		background: #00001eee;
-		width: 100%;
-		height: 0%;
-		z-index: 10;
-		align-items: center;
-		overflow: hidden;
-		transition: ease-in-out .3s;
-		opacity: 0;
-		backdrop-filter: blur(12px);
-		padding-top: 15px;
-	}
+  .menu-list {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 50px;
+    background: var(--heo-fontcolor);
+    width: 100%;
+    height: 0%;
+    z-index: 10;
+    align-items: center;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+    opacity: 0;
+    
+  }
 
   .show-menu .menu-list {
     height: 100%;
@@ -1094,5 +1097,3 @@ a {
 .nav-center {
   display: none
 }
-
-
