@@ -428,7 +428,7 @@ a.nav-item {
   font-size: 14px;
   margin-left: 12px;
   padding: 4px 8px;
-	border-radius: 16px;
+	border-radius: 20px;
 }
 
 a.nav-item:hover {
@@ -951,7 +951,7 @@ a.second-link:hover {
     align-items: center;
     overflow: hidden;
     transition: ease-in-out 0.3s;
-    opacity: 0;
+    /* opacity: 1; */
     
   }
 
@@ -970,7 +970,7 @@ a.second-link:hover {
 		border-bottom: 1px solid #ffffff1e;
 		width: 90%;
 		margin-left: 0;
-		border-radius: 0;
+		border-radius: 20px;
 		width: 80%
 	}
 
