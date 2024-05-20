@@ -122,6 +122,10 @@
   }
 }
 
+/* Yoinked from CodePen, but improved the animation
+so that it is smooth among other more minor things */
+
+
 .container {
   width: 250px;
   height: 250px;
@@ -638,21 +642,43 @@ span.discription-text {
 
 a.about-button {
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 14px 36px;
-  background: var(--heo-card-btn-bg);
-  color: var(--heo-white);
+  color: var(--heo-white); /* 根据您的需求调整文本颜色 */
   border-radius: 29px;
-  box-shadow: 0px 12px 12px -9px rgba(0, 0, 0, 0.29);
   margin-top: 60px;
   width: fit-content;
   transition: ease-in-out 0.3s;
   white-space: nowrap;
+  background: linear-gradient(90deg,#f2420c, #e3f055, #9204f0, #1f53ee,#08e2ff,#f055af);
+  background-size: 300% 300%; /* 增大背景大小以实现流光效果 */
+  animation: flowGradient 10s linear infinite; /* 应用动画 */
 }
 
-a.about-button:hover {
-  background: var(--heo-main);
-  box-shadow: 0px 12px 12px -9px rgba(5, 51, 137, 0.29);
+@keyframes flowGradient {
+  0% {
+      background-position: 0% ;
+  }
+
+  25% {
+      background-position: 50%;
+  }
+
+  50% {
+      background-position: 100%;
+  }
+
+  75% {
+      background-position: 50%;
+  }
+
+  100% {
+      background-position: 0%;
+  }
+
 }
+
 
 .product-group {
   margin: 0;
@@ -999,6 +1025,7 @@ span.linkbotton-tips {
 }
 
 
+
 @media screen and (max-width: 1200px) {
   .group-item {
     width: 50%;
@@ -1280,3 +1307,7 @@ a {
   span.linkbotton-tips {
     margin-top: 4px;
   }
+
+
+
+  
