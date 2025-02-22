@@ -604,6 +604,7 @@ span.discription-text {
   -webkit-text-fill-color: transparent;
 }
 
+
 @keyframes backgroundSizeAnimation {
   0% {
       background-position: 0% ;
@@ -657,8 +658,6 @@ a.about-button:hover {
   background: var(--heo-main);
   box-shadow: 0px 12px 12px -9px rgba(5, 51, 137, 0.29);
 }
-
-
 
 
 .product-group {
